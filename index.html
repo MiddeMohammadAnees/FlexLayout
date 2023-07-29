@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Layout</title>
+  <style>
+    body {
+       
+        background-color:burlywood;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+        
+      padding-left: 86% ;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      color: #e0e0e0;
+    }
+    header a{
+        color:floralwhite;
+    }
+    header a:hover{
+        color: brown;
+    }
+
+    
+    .Home,.About,.Contact{
+        margin-left: 10px;
+    }
+
+    .m{
+    
+        position: absolute;
+        bottom: 50%;
+        
+    }
+
+    main {
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9f9f9;
+    }
+    
+    footer {
+      height: 60px;
+      background-color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="Home">Home</a>
+    <a href="#" class="About">About</a>
+    <a href="#" class="Contact">Contact</a>
+  </header>
+
+  <main>
+    <h1>Welcome to My_Page. This is the main content area.</h1>
+    
+  </main>
+
+  <footer>
+    <p>This is the footer content.</p>
+  </footer>
+</body>
+</html>
